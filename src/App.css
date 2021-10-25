@@ -1,0 +1,86 @@
+.popup{
+  background:rgba(0, 0, 0, 0.5);
+  width:100%;
+  height:100%;
+  z-index: 99;
+    position: absolute;
+    top: 0;
+    display: none;
+    transition:0.7s;
+    left: 0;
+}
+.popup-inner{
+  position:absolute;
+  left:50%;
+  background:white;
+  padding:5%;
+  top:50%;
+  transform:translate(-50%,-50%);
+  
+  animation: animate 0.7s;
+  width:80%;
+}
+.display{
+  display: block;
+}
+
+@keyframes animate{
+  0%{
+    opacity: 0;
+    transform: translate(-50%,-70%);
+  }
+  100%{
+    opacity: 1;
+    transform: translate(-50%,-50%);
+  }
+}
+/* 
+@keyframes pulse {
+  0% {
+  opacity: 0;
+  background-position: center top;
+  font-size: 0 auto;
+ }
+  10% {
+  opacity: 0;
+ }
+  50% {
+  opacity: 1;
+  font-size: 20% auto;
+ }
+  90% {
+  opacity: 0;
+ }
+  100% {
+  opacity: 0;
+  background-position: center bottom;
+  font-size: 0 auto;
+ }
+ }
+ .sc-kEqXSa .MuiSvgIcon-root {
+   display: block;
+   opacity: 0;
+   transition: all 0.4s ease;
+   line-height: 0;
+   font-size: 0 !important;
+   color: transparent;
+   animation: pulse 1.5s 0s infinite normal ease forwards;
+ }
+ .scroll-down a:before, .scroll-down a:after {
+   content: " ";
+   position: absolute;
+   top: 0;
+   left: 0;
+   display: block;
+   width: 100%;
+   height: 100%;
+   
+ }
+ .scroll-down a:before {
+   
+   animation: pulse 1.5s 0.25s infinite normal ease forwards;
+ }
+ .scroll-down a:after {
+   
+   animation: pulse 1.5s 0.5s infinite normal ease forwards;
+ } */

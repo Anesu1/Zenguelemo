@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'Proxima-bold';
+    src: url('./Proxima\ Nova\ Bold.otf');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima-regular';
+    src: url('./Proxima\ Nova\ Font.otf');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rockwell-bold';
+    src: url('./rockb.ttf');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rockwell-regular';
+    src: url('./ROCK.ttf');
+    font-style: normal;
+}
